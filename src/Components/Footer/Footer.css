@@ -48,6 +48,25 @@
     transition: 0.3s;
 }
 
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.footer-icons a {
+    /* color: #000; */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.footer-icons a:hover {
+    color: #007bff; /* Change this to your desired hover color */
+    transform: scale(1.2);
+}
+
 .footer-botttom {
     display: flex;
     justify-content: space-between;
@@ -69,7 +88,7 @@
     transition: 0.3s;
 }
 
-@media(max-width:480px) {
+@media (max-width: 480px) {
     .footer {
         margin: 50px 70px;
     }
@@ -94,7 +113,7 @@
     }
 }
 
-@media(min-width: 481px) and (max-width: 780px) {
+@media (min-width: 481px) and (max-width: 780px) {
     .footer {
         margin: 50px 70px;
     }
@@ -138,6 +157,5 @@
 
     .footer p {
         font-size: 16px;
-
     }
 }
